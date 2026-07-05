@@ -1,0 +1,80 @@
+TOOLS SUMMARY
+=============
+
+Project:
+Future Interns – Cyber Security Task 1 (2026)
+Vulnerability Assessment Report for a Live Website (Read-Only Scope)
+
+Objective:
+To perform an ethical, passive vulnerability assessment of a publicly accessible website using industry-standard security tools and document the findings with appropriate evidence and remediation recommendations.
+
+Tools Used
+----------
+
+1. Nmap
+Purpose:
+- Network reconnaissance
+- Open port discovery
+- Service identification
+- Service version detection
+
+Command Used:
+nmap -Pn -sV <target>
+
+Output:
+- Open ports
+- Running services
+- Service versions
+
+------------------------------------------------------------
+
+2. OWASP ZAP (Passive Scan)
+Purpose:
+- Passive web application security assessment
+- Security header analysis
+- Information disclosure detection
+- Cookie inspection
+- Session management review
+
+Output:
+- Passive scan alerts
+- Security observations
+- Alert summary
+- HTML/PDF reports
+- Supporting screenshots
+
+------------------------------------------------------------
+
+3. Browser Developer Tools
+Purpose:
+- HTTP response header inspection
+- Cookie analysis
+- Network request monitoring
+- Client-side security review
+
+Output:
+- Header inspection
+- Cookie configuration
+- Network activity
+- Browser inspection screenshots
+
+------------------------------------------------------------
+
+4. Canva
+Purpose:
+- Design and formatting of the final Vulnerability Assessment Report
+- Professional presentation of findings and recommendations
+
+Output:
+- Report PDF
+- Presentation-ready assessment document
+
+Assessment Methodology
+----------------------
+
+The assessment followed a passive, read-only testing methodology. No exploitation, authentication bypass, brute-force attacks, denial-of-service testing, or any intrusive activities were performed. All observations were collected through publicly accessible resources in accordance with ethical security assessment practices.
+
+Conclusion
+----------
+
+The combination of Nmap, OWASP ZAP, Browser Developer Tools, and Canva provided comprehensive support for identifying, documenting, and presenting potential security observations. Together, these tools enabled the creation of a professional vulnerability assessment report with verifiable evidence while maintaining compliance with ethical and passive testing principles.
