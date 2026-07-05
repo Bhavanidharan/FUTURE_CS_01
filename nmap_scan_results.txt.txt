@@ -1,0 +1,52 @@
+Nmap Scan Results
+=================
+
+Command Used:
+nmap -Pn -sV 127.0.0.1
+
+Scan Date:
+2026-07-02 20:59 IST
+
+Target:
+127.0.0.1 (localhost)
+
+Host Status:
+Host is up (0.000011s latency)
+
+Open Ports:
+-----------
+
+Port: 80/tcp
+State: Open
+Service: HTTP
+Version: Apache httpd 2.4.67 ((Debian))
+
+Port: 3306/tcp
+State: Open
+Service: MySQL (MariaDB)
+Version: MariaDB 11.8.6 (Debian)
+Authentication Plugin: mysql_native_password
+
+Port: 8082/tcp
+State: Open
+Service: SSL/BlackICE Alerts (service not fully identified)
+
+Closed Ports:
+-------------
+997 TCP ports are closed (reset).
+
+Summary:
+--------
+- Web server detected on port 80 running Apache HTTP Server 2.4.67.
+- Database server detected on port 3306 running MariaDB 11.8.6.
+- Port 8082 is open but the exact service could not be identified by Nmap.
+- The host responded successfully to service version detection.
+
+Security Observation:
+---------------------
+- Apache HTTP service is exposed on port 80.
+- MariaDB service is listening on port 3306.
+- Unknown service on port 8082 should be investigated further to determine its purpose.
+- This scan was performed against the local machine (127.0.0.1).
+
+End of Report
